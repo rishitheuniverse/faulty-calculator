@@ -1,0 +1,25 @@
+print("welcome to faulty calculator")
+inp1= input("choose Operator")
+inp2 = input("enter First number")
+inp3 = input("enter second number")
+new_input = inp2 + inp1 + inp3
+if new_input == "44*3":
+    print(455)
+elif new_input == "58+4":
+    print(7)
+elif new_input == "50/7":
+    print(4)
+elif inp1 == "*":
+    print(int(inp2) * int(inp3))
+elif inp1 == "+":
+    print(int(inp2) + int(inp3))
+elif inp1 == "-":
+    print(int(inp2) - int(inp3))
+elif inp1 == "/":
+    print(int(inp2) / int(inp3))
+
+print("good bye")
+
+
+
+# Rishi theuniverse
